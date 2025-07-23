@@ -51,8 +51,8 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">fps</div>
+                            <p>{{ level.fps || '60-240' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
@@ -99,6 +99,9 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
+                    <p>
+                        The level must have the word mango in the title , also must have the colors of a mango
+                    </p>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
                     </p>
